@@ -1,0 +1,2 @@
+# sknni
+A geospatial interpolator
