@@ -10,7 +10,7 @@ pip install sknni
 
 ## Example
 Here's a short usage example.
-```
+```python
 import numpy as np
 
 from sknni import SkNNI
