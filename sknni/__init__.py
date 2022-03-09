@@ -148,9 +148,9 @@ class SkNNI:
         Returns: Cartesian coordinates from the given (lat, lng) coordinates.
         """
 
-        x = r * np.cos(lng) * np.sin(lat)
-        y = r * np.sin(lat) * np.sin(lng)
-        z = r * np.cos(lat)
+        x = r * np.cos(lng) * np.cos(lat)
+        y = r * np.cos(lat) * np.sin(lng)
+        z = r * np.sin(lat)
         return x, y, z
 
     @staticmethod
